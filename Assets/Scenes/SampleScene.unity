@@ -1244,12 +1244,12 @@ MonoBehaviour:
   _parentBlackboard: {fileID: 0}
   _serializedBlackboard: '{"_variables":{"hunger":{"_name":"hunger","_id":"22b4be04-665f-4307-98ce-c83f7f9ab582","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"energy":{"_value":20.0,"_name":"energy","_id":"715442b6-733d-406c-8b0e-77c8826360cf","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
-    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"atDen":{"_name":"atDen","_id":"80893f3f-6599-4419-bb11-4d322e9770b6","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"hasTarget":{"_name":"hasTarget","_id":"bf12d741-18b2-4d0b-800b-563b2de1515c","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
-    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"atFood":{"_name":"atFood","_id":"06e439b2-4857-4787-aec6-ba7575d706cd","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"targetLocation":{"_name":"targetLocation","_id":"5865b8db-3f6e-4a11-a179-010ab647a285","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Transform,
-    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"denLocation":{"_value":1,"_name":"denLocation","_id":"f848c2e8-d004-4692-89cb-8215404b15a3","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Transform,
-    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"foodLocation":{"_value":2,"_name":"foodLocation","_id":"da749c88-247c-4917-874e-6fe835dbdc21","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Transform,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"atDen":{"_name":"atDen","_id":"80893f3f-6599-4419-bb11-4d322e9770b6","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"denLocation":{"_value":1,"_name":"denLocation","_id":"f848c2e8-d004-4692-89cb-8215404b15a3","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Transform,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"atFood":{"_name":"atFood","_id":"06e439b2-4857-4787-aec6-ba7575d706cd","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"foodLocation":{"_value":2,"_name":"foodLocation","_id":"da749c88-247c-4917-874e-6fe835dbdc21","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Transform,
     UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}}}'
   _objectReferences:
   - {fileID: 0}
@@ -1262,23 +1262,23 @@ MonoBehaviour:
   - _json: '{"_value":20.0,"_name":"energy","_id":"715442b6-733d-406c-8b0e-77c8826360cf","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
     _references: []
-  - _json: '{"_name":"atDen","_id":"80893f3f-6599-4419-bb11-4d322e9770b6","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
-    _references: []
   - _json: '{"_name":"hasTarget","_id":"bf12d741-18b2-4d0b-800b-563b2de1515c","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
-    _references: []
-  - _json: '{"_name":"atFood","_id":"06e439b2-4857-4787-aec6-ba7575d706cd","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
     _references: []
   - _json: '{"_name":"targetLocation","_id":"5865b8db-3f6e-4a11-a179-010ab647a285","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Transform,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
+    _references: []
+  - _json: '{"_name":"atDen","_id":"80893f3f-6599-4419-bb11-4d322e9770b6","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
     _references: []
   - _json: '{"_value":1,"_name":"denLocation","_id":"f848c2e8-d004-4692-89cb-8215404b15a3","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Transform,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
     _references:
     - {fileID: 0}
     - {fileID: 1199664724}
+  - _json: '{"_name":"atFood","_id":"06e439b2-4857-4787-aec6-ba7575d706cd","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
   - _json: '{"_value":1,"_name":"foodLocation","_id":"da749c88-247c-4917-874e-6fe835dbdc21","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Transform,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
     _references:
@@ -1297,26 +1297,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _serializedExposedParameters: []
-  _boundGraphSerialization: '{"type":"NodeCanvas.StateMachines.FSM","nodes":[{"_actionList":{"executionMode":1,"actions":[]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"Alerted","_position":{"x":930.4448,"y":93.25643},"$type":"NodeCanvas.StateMachines.ActionState","$id":"0"},{"_nestedFSM":{"_value":1},"_name":"Search","_position":{"x":791.0731,"y":207.7096},"$type":"NodeCanvas.StateMachines.NestedFSMState","$id":"1"},{"_actionList":{"executionMode":1,"actions":[{"target":{"_name":"targetLocation","_targetVariableID":"5865b8db-3f6e-4a11-a179-010ab647a285"},"speed":{"_value":2.0},"angleDifference":{"_value":5.0},"upVector":{"_value":{"y":1.0}},"waitActionFinish":true,"$type":"NodeCanvas.Tasks.Actions.RotateTowards"},{"target":{"_name":"targetLocation","_targetVariableID":"5865b8db-3f6e-4a11-a179-010ab647a285"},"speed":{"_value":2.0},"stopDistance":{"_value":0.1},"waitActionFinish":true,"$type":"NodeCanvas.Tasks.Actions.MoveTowards"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"Walk","_position":{"x":573.5707,"y":169.9247},"$type":"NodeCanvas.StateMachines.ActionState","$id":"2"},{"_actionList":{"executionMode":1,"actions":[{"valueA":{"_name":"energy","_targetVariableID":"715442b6-733d-406c-8b0e-77c8826360cf"},"valueB":{"_value":20.0},"$type":"NodeCanvas.Tasks.Actions.SetVariable`1[[System.Single,
+  _boundGraphSerialization: '{"type":"NodeCanvas.StateMachines.FSM","nodes":[{"_actionList":{"executionMode":1,"actions":[]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"Alerted","_position":{"x":930.4448,"y":93.25643},"$type":"NodeCanvas.StateMachines.ActionState","$id":"0"},{"_nestedFSM":{"_value":1},"_name":"Search","_position":{"x":791.0731,"y":207.7096},"$type":"NodeCanvas.StateMachines.NestedFSMState","$id":"1"},{"_actionList":{"actions":[{"target":{"_name":"targetLocation","_targetVariableID":"5865b8db-3f6e-4a11-a179-010ab647a285"},"speed":{"_value":2.0},"angleDifference":{"_value":5.0},"upVector":{"_value":{"y":1.0}},"waitActionFinish":true,"$type":"NodeCanvas.Tasks.Actions.RotateTowards"},{"navAgent":2,"targetLocation":{"_name":"targetLocation","_targetVariableID":"5865b8db-3f6e-4a11-a179-010ab647a285"},"denLocation":{"_name":"denLocation","_targetVariableID":"f848c2e8-d004-4692-89cb-8215404b15a3"},"foodLocation":{"_name":"foodLocation","_targetVariableID":"da749c88-247c-4917-874e-6fe835dbdc21"},"atDen":{"_name":"atDen","_targetVariableID":"80893f3f-6599-4419-bb11-4d322e9770b6"},"atFood":{"_name":"atFood","_targetVariableID":"06e439b2-4857-4787-aec6-ba7575d706cd"},"$type":"NodeCanvas.Tasks.Actions.Walk"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"Walk","_position":{"x":573.5707,"y":169.9247},"$type":"NodeCanvas.StateMachines.ActionState","$id":"2"},{"_actionList":{"executionMode":1,"actions":[{"valueA":{"_name":"energy","_targetVariableID":"715442b6-733d-406c-8b0e-77c8826360cf"},"valueB":{"_value":20.0},"$type":"NodeCanvas.Tasks.Actions.SetVariable`1[[System.Single,
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"Sleep","_position":{"x":434.1385,"y":312.7156},"$type":"NodeCanvas.StateMachines.ActionState","$id":"3"},{"_actionList":{"executionMode":1,"actions":[]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"The
-    Great Decider","_position":{"x":356.0745,"y":67.7193},"$type":"NodeCanvas.StateMachines.ActionState","$id":"4"},{"_actionList":{"executionMode":1,"actions":[]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"Steal","_position":{"x":645.9031,"y":39.70135},"$type":"NodeCanvas.StateMachines.ActionState","$id":"5"},{"_actionList":{"executionMode":1,"actions":[{"valueA":{"_name":"hunger","_targetVariableID":"22b4be04-665f-4307-98ce-c83f7f9ab582"},"valueB":{"_value":15.0},"$type":"NodeCanvas.Tasks.Actions.SetVariable`1[[System.Single,
+    Great Decider","_position":{"x":324.2013,"y":38.20708},"$type":"NodeCanvas.StateMachines.ActionState","$id":"4"},{"_actionList":{"executionMode":1,"actions":[]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"Steal","_position":{"x":645.9031,"y":39.70135},"$type":"NodeCanvas.StateMachines.ActionState"},{"_actionList":{"executionMode":1,"actions":[{"valueA":{"_name":"hunger","_targetVariableID":"22b4be04-665f-4307-98ce-c83f7f9ab582"},"valueB":{"_value":15.0},"$type":"NodeCanvas.Tasks.Actions.SetVariable`1[[System.Single,
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_name":"Eat","_position":{"x":504.5887,"y":-28.522},"$type":"NodeCanvas.StateMachines.ActionState","$id":"6"},{"_position":{"x":897.6591,"y":0.1328487},"$type":"NodeCanvas.StateMachines.AnyState","$id":"7"},{"_conditionList":{"conditions":[]},"_actionList":{"executionMode":1,"actions":[{"hunger":{"_name":"hunger","_targetVariableID":"22b4be04-665f-4307-98ce-c83f7f9ab582"},"energy":{"_name":"energy","_targetVariableID":"715442b6-733d-406c-8b0e-77c8826360cf"},"$type":"NodeCanvas.Tasks.Actions.EnergyHungerManager"}]},"_position":{"x":926.8784,"y":221.3182},"$type":"NodeCanvas.StateMachines.OnFSMUpdate"}],"connections":[{"_condition":{"timeout":{"_value":5.0},"$type":"NodeCanvas.Tasks.Conditions.Timeout"},"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"valueA":{"_name":"hasTarget","_targetVariableID":"bf12d741-18b2-4d0b-800b-563b2de1515c"},"valueB":{"_value":true},"$type":"NodeCanvas.Tasks.Conditions.CheckVariable`1[[System.Boolean,
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"conditions":[{"valueA":{"_name":"atDen","_targetVariableID":"80893f3f-6599-4419-bb11-4d322e9770b6"},"valueB":{"_value":true},"$type":"NodeCanvas.Tasks.Conditions.CheckVariable`1[[System.Boolean,
-    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},{"valueA":{"_name":"targetLocation","_targetVariableID":"5865b8db-3f6e-4a11-a179-010ab647a285"},"valueB":{"_value":2},"$type":"NodeCanvas.Tasks.Conditions.CheckVariable`1[[UnityEngine.Transform,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},{"valueA":{"_name":"targetLocation","_targetVariableID":"5865b8db-3f6e-4a11-a179-010ab647a285"},"valueB":{"_value":3},"$type":"NodeCanvas.Tasks.Conditions.CheckVariable`1[[UnityEngine.Transform,
     UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}],"$type":"NodeCanvas.Framework.ConditionList"},"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"conditions":[{"valueA":{"_name":"atFood","_targetVariableID":"06e439b2-4857-4787-aec6-ba7575d706cd"},"valueB":{"_value":true},"$type":"NodeCanvas.Tasks.Conditions.CheckVariable`1[[System.Boolean,
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},{"valueA":{"_name":"targetLocation","_targetVariableID":"5865b8db-3f6e-4a11-a179-010ab647a285"},"valueB":{"_name":"foodLocation","_targetVariableID":"da749c88-247c-4917-874e-6fe835dbdc21"},"$type":"NodeCanvas.Tasks.Conditions.CheckVariable`1[[UnityEngine.Transform,
-    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}],"$type":"NodeCanvas.Framework.ConditionList"},"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"timeout":{"_value":5.0},"$type":"NodeCanvas.Tasks.Conditions.Timeout"},"_sourceNode":{"$ref":"3"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"valueA":{"_name":"atDen","_targetVariableID":"80893f3f-6599-4419-bb11-4d322e9770b6"},"valueB":{"_value":true},"$type":"NodeCanvas.Tasks.Conditions.CheckVariable`1[[System.Boolean,
-    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"_sourceNode":{"$ref":"5"},"_targetNode":{"$ref":"6"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"timeout":{"_value":3.0},"$type":"NodeCanvas.Tasks.Conditions.Timeout"},"_sourceNode":{"$ref":"6"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"$type":"NodeCanvas.Tasks.Conditions.IsAlerted"},"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"0"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}}}'
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}],"$type":"NodeCanvas.Framework.ConditionList"},"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"timeout":{"_value":5.0},"$type":"NodeCanvas.Tasks.Conditions.Timeout"},"_sourceNode":{"$ref":"3"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"timeout":{"_value":3.0},"$type":"NodeCanvas.Tasks.Conditions.Timeout"},"_sourceNode":{"$ref":"6"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_condition":{"$type":"NodeCanvas.Tasks.Conditions.IsAlerted"},"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"0"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}}}'
   _boundGraphObjectReferences:
   - {fileID: 0}
   - {fileID: 11400000, guid: 15fec091bd3bace48b886d2b6b03cb7f, type: 2}
+  - {fileID: 1539703347}
   - {fileID: 1199664724}
   _boundGraphSource:
     _version: 3.31
     _category: 
     _comments: 
-    _translation: {x: 129, y: 31}
-    _zoomFactor: 0.8524799
+    _translation: {x: 189, y: 32}
+    _zoomFactor: 0.8471068
   _firstActivation: 0
   _enableAction: 0
   _disableAction: 0
