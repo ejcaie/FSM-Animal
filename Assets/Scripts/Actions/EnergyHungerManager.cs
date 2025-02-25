@@ -28,12 +28,16 @@ namespace NodeCanvas.Tasks.Actions {
 			
 			if (hunger.value >= 0)
 			{
-				hunger.value -= hunger.value;
+				hunger.value = hunger.value - 1 * Time.deltaTime;
+
+				if (hunger.value < 0.1) hunger.value = 0;
 			}
 
 			if (energy.value >= 0)
 			{
-				energy.value -= energy.value;
+				energy.value = energy.value - 1 * Time.deltaTime;
+
+                if (energy.value < 0.1) energy.value = 0;
             }
 		}
 
